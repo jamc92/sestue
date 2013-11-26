@@ -1,0 +1,5 @@
+<?php
+    include "../lib/config/config.php";
+    $template = Templates::getInstance("sb-admin");
+    print $template->getPage( "Administración", "Contenido" );
+?>

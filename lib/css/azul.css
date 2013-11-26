@@ -1,0 +1,58 @@
+@import url(menu-vertical.css);
+body{
+	background: url(../img/azul/bg-navigation.png) repeat-x scroll 50% 0px rgb(237, 245, 250);
+}
+#marco{
+	background: #edf5fa url(../img/azul/body.png) repeat-x 50% 0;
+	width:1279px;
+	height:100%;
+	position:relative;
+    left: -7px;
+}
+#marco #encabezado{
+	position:relative;
+	width:1279px;
+	height:121px;
+}
+#marco #menu{
+    margin-top: 20px;
+    margin-left: 20px;
+	width: 16%;
+    min-width: 217px;
+	float: left;
+	z-index: 2;
+	position: relative;
+}
+#marco #contenido{
+    top:-41px;
+    position: relative;
+    left: 230px;
+    background: url(../img/azul/bg-content.png) repeat-x scroll transparent;
+    background-color: #fff;
+    width: 1000px;
+    min-width: 570px;
+    min-height: 400px;
+    border-radius: 2px;
+}
+#marco #contenido #esquina-der #esquina-izq{
+    background: url("../img/azul/bg-content-left.png") no-repeat 0px 0px scroll transparent border-box;
+    margin-left: -10px;
+    margin-left-value: -10px;
+    margin-left-ltr-source: physical;
+    margin-left-rtl-source: physical;
+    position: relative;
+    left: -10px;
+    min-height: 400px;
+}
+#marco #contenido #esquina-der{
+    background: url("../img/azul/bg-content-right.png") no-repeat scroll 100% 0px transparent border-box;
+    position: relative;
+    left: 10px;
+}
+#marco #contenido #contenido-central{
+    position: absolute;
+    top:40px;
+    margin: 0px 30px;
+    min-width: 99%;
+    min-height: 380px;
+}

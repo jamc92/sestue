@@ -1,0 +1,8 @@
+RewriteEngine on
+
+Options All -Indexes
+
+AddType application/x-httpd-php .sestue
+DirectoryIndex index.sestue
+ErrorDocument 403 /sestue/admin/error/403.sestue
+ErrorDocument 404 /sestue/admin/error/404.sestue

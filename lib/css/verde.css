@@ -1,0 +1,58 @@
+@import url(menu-vertical.css);
+body{
+	background: url(../img/verde/bg-navigation.png) repeat-x scroll 50% 0px rgb(237, 245, 250);
+}
+#marco{
+	background: url(../img/verde/body.png) repeat-x scroll 50% 0px #f6faec;
+	width:1279px;
+	height:100%;
+	position:relative;
+    left: -7px;
+}
+#marco #encabezado{
+	position:relative;
+	height:121px;
+}
+#marco #menu{
+    margin-bottom: 5em;
+    margin-left: 10px;
+	width: 16%;
+    min-width: 217px;
+	float: left;
+	z-index: 2;
+	position: relative;
+}
+#marco #contenido{
+    top:-41px;
+    position: relative;
+    left: 217px;
+    background: url(../img/verde/bg-content.png) repeat-x scroll transparent;
+    background-color: #fff;
+    width: 81%;
+    min-width: 570px;
+    min-height: 400px;
+    border-radius: 2px;
+}
+#marco #contenido #esquina-der{
+    background: url("../img/verde/bg-content-right.png") no-repeat scroll 100% 0px transparent;
+    position: relative;
+    left: 10px;
+}
+#marco #contenido #esquina-der #esquina-izq{
+    background: url("../img/verde/bg-content-left.png") no-repeat scroll 0px 0px transparent;
+    margin-left: -10px;
+    margin-left-value: -10px;
+    margin-left-ltr-source: physical;
+    margin-left-rtl-source: physical;
+    position: relative;
+    left: -10px;
+    min-height: 400px;
+}
+#marco #contenido #contenido-central{
+    top:40px;
+    margin: 0px 30px;
+    position:absolute;
+    background: transparent;
+    min-width: 99%;
+    min-height: 380px;
+}

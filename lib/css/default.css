@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+	font-family: 'Vladimir Script';
+	src: url('Vladimir Script.eot?') format('eot'),
+	url('Vladimir Script.woff') format('woff'),
+	url('Vladimir Script.ttf') format('truetype');
+} 
+body {
+	font: 0.8em "Lucida Sans Unicode", "Lucida Grande", Arial, Helvetica, sans-serif;
+	color: #343434;
+	background: #66b6fc; /* Old browsers */
+	background: -moz-linear-gradient(top, #66b6fc 40%, #b2e1ff 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(40%,#66b6fc), color-stop(100%,#b2e1ff)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #66b6fc 40%,#b2e1ff 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #66b6fc 40%,#b2e1ff 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #66b6fc 40%,#b2e1ff 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #66b6fc 40%,#b2e1ff 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66b6fc', endColorstr='#b2e1ff',GradientType=0 ); /* IE6-9 */
+
+	/*Cambiar color despues a una imagen de fondo*/
+	margin: 0;
+	padding: 0;
+}
+#encabezado{
+	background-color: #fff;
+	width:850px;
+	height: 40px;
+	position: absolute;
+	top:-45px;
+}
+#encabezado #GobiernoBolivariano{
+	margin-top: -10px;
+    margin-left: -100px;
+}
+#encabezado #CampanaAdmirable{
+	margin-top: -10px;
+	margin-left: 700px;
+	float: right;
+}
+#encabezado #titulosestue{
+	display: none;
+}
+#marco {
+	width: 850px;
+	min-height:475px;
+	margin: 50px auto;
+	background: #FFFFFF url(../img/default/header2.png) 47px 4px no-repeat;
+	padding: 100px 4px 0px 4px;
+	border-radius: 10px;
+	box-shadow: inset 0px 0px 2px 2px rgba(0, 0, 0, .9); 
+	position:relative;
+}
+h1 {
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0;
+	padding: 0.3em 0;
+	text-indent:-99999px;
+}
+#menu {
+	list-style: none;
+	padding: 2px;
+	margin: 10px 0 20px 0;
+	background: #2e2e2e url(../img/default/nav_bar.jpg) repeat-x;
+	display: block;
+	overflow: hidden;
+	font-size: 0.9em;
+	height:33px;
+	border-radius:10px;
+	position:relative;
+}
+#menu li {
+	display: inline;
+}
+#menu li a {
+	width:auto;
+	display: block;
+	float: left;
+	padding: 10px;
+	color: white;
+	text-decoration: none;
+	border-radius:10px;
+	/*opacity: 1;*/
+}
+#menu li a:hover {
+	background: #1b1b1b url(img/default/nav_bar_o.jpg) repeat-x;
+}
+#contenido {
+	overflow:auto;
+	width:740px;
+	height:360px;
+	margin: -10px auto;
+	padding:10px;
+	/*border:1px solid black;*/
+}
+#contenido-der{display: none;}
+h2 {
+	margin: 0;
+	padding: 0.5em 0;
+	color:#568945;
+	font-family:Helvetica, Arial, Sans-serif;
+}
+p {
+	margin: 0;
+	padding: 0.4em 0;
+	color:#686868;
+	line-height:1.4em;
+}
+#contenido img.right {
+	float: right;
+	margin: 0 0 8px 8px;
+}

@@ -1,0 +1,22 @@
+#menu ul,#menu li{
+	list-style: none;
+}
+#menu ul{
+	background: rgb(220,230,250);
+}
+#menu li, #menu li ul li{
+	width:200px;
+}
+#menu li:hover, #menu li:hover ul li:hover{
+	background: #fff;
+}
+#menu li ul{
+	margin-top:-19px;
+	margin-left: 200px;
+	position: absolute;
+	display: none;
+}
+#menu li:hover ul{
+	display: block;
+	transition: 1s linear;
+}
